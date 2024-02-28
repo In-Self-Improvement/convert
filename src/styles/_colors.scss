@@ -28,7 +28,7 @@ $colors: (
   transparent: transparent,
 );
 
-@mixin text($color-name) {
+@mixin font($color-name) {
   color: map-get($colors, $color-name);
 }
 
